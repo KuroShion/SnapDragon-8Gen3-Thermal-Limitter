@@ -1,12 +1,13 @@
 # ❄️ Xiaomi MIX Flip Thermal Limiter Suite (SM8650)
 
 [![KernelSU](https://img.shields.io/badge/Root-KernelSU%20%7C%20Magisk-orange?style=flat-square)](https://github.com/KuroShion)
-[![Device](https://img.shields.io/badge/Device-Xiaomi%20MIX%20Flip%20(ruyi)-blue?style=flat-square)](https://github.com/KuroShion)
+[![Tested On](https://img.shields.io/badge/Tested%20On-Xiaomi%20MIX%20Flip%20(ruyi)-blue?style=flat-square)](https://github.com/KuroShion)
 [![SoC](https://img.shields.io/badge/SoC-Snapdragon%208%20Gen%203-red?style=flat-square)](https://github.com/KuroShion)
 [![Developer](https://img.shields.io/badge/Developer-Kuro%20Shion-green?style=flat-square)](https://github.com/KuroShion)
 [![Telegram](https://img.shields.io/badge/Telegram-@KuroShion-2CA5E0?style=flat-square&logo=telegram)](https://t.me/KuroShion)
 
-System-level thermal management, frequency limiter, and 120Hz display lock designed for **Snapdragon 8 Gen 3 (SM8650)** devices, specialized for clamshell foldables like the **Xiaomi MIX Flip**.
+> [!NOTE]
+> **Tested on Xiaomi MIX Flip (`ruyi`)**, but should be fully suitable for any other rooted **Snapdragon 8 Gen 3 (SM8650)** device running KernelSU or Magisk.
 
 ---
 
