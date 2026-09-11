@@ -1,0 +1,5 @@
+# Xiaomi MIX Flip Thermal Properties
+# Author: Kuro Shion
+
+vendor.perf.gestureflingboost.enable=false
+persist.sys.perf.top_app_boost=false

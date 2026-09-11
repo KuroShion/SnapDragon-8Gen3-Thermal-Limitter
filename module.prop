@@ -1,0 +1,6 @@
+id=mixflip_thermal_limiter
+name=MIX Flip Thermal Limiter (Normal Mode)
+version=v1.0
+versionCode=100
+author=Kuro Shion
+description=Normal Mode (Slightly Downclocked): Caps Snapdragon 8 Gen 3 Cortex-X4 (3.30GHz -> ~2.80GHz) and Cortex-A720 (3.15GHz -> ~2.61GHz). Eliminates thermal spikes and locks 120Hz.
