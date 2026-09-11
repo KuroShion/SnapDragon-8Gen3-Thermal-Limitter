@@ -55,7 +55,7 @@ Choose the edition that fits your workflow:
 * **KernelSU** or **Magisk** installed.
 
 ### Steps:
-1. Go to the [**Releases**](https://github.com/KuroShion) section.
+1. Go to the [**Releases**](https://github.com/KuroShion/SnapDragon-8Gen3-Thermal-Limitter/releases/tag/Release) section.
 2. Download the `.zip` edition you want to use.
 3. Open **KernelSU** or **Magisk** app on your phone.
 4. Go to **Modules** ➔ **Install from storage**.
