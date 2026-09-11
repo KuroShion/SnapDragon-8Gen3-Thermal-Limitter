@@ -7,7 +7,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@KuroShion-2CA5E0?style=flat-square&logo=telegram)](https://t.me/KuroShion)
 
 > [!NOTE]
-> **Tested on Xiaomi MIX Flip (`ruyi`)**, but should be fully suitable for any other rooted **Snapdragon 8 Gen 3 (SM8650)** device running KernelSU or Magisk.
+> **Tested on Xiaomi MIX Flip (`ruyi`)**, but should be fully suitable for any other rooted **Snapdragon 8 Gen 3 (SM8650)** device running KernelSU or Magisk. Test with your own RISKS!
 
 ---
 
