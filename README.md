@@ -39,14 +39,15 @@ This suite intercepts Qualcomm's governor and powerHAL to:
 
 Choose the edition that fits your workflow:
 
-| Edition | Cortex-X4 (Prime) | Cortex-A720 (Big) | Cortex-A720 (Mid) | Target Use-Case |
-| :--- | :---: | :---: | :---: | :--- |
-| **Stock (Factory Default)** | **3.30 GHz** | **3.15 GHz** | **2.96 GHz** | **Baseline.** Stock clocks without limits. Causes massive 5W+ power spikes and rapid overheating in compact foldables. |
-| **Normal Mode (V1.0)** | **2.80 GHz** `(-15%)` | **2.61 GHz** `(-17%)` | **2.47 GHz** `(-16%)` | **Default / Recommended.** Retains ~95% flagship power while eliminating high-wattage thermal spikes. |
-| **Power Mode** | **2.57 GHz** `(-22%)` | **2.30 GHz** `(-27%)` | **2.18 GHz** `(-26%)` | **Daily Driver.** Enhanced battery life and cooler chassis during multitasking. |
-| **Extreme Mode** | **2.26 GHz** `(-31%)` | **2.09 GHz** `(-33%)` | **1.95 GHz** `(-34%)` | **Cool Thermals.** Zero overheating under warm weather or direct sunlight. |
-| **Ultra Mode** | **1.95 GHz** `(-41%)` | **1.78 GHz** `(-43%)` | **1.65 GHz** `(-44%)` | **Maximum Battery.** Ice-cold phone, extreme Screen-On Time (SOT). |
-| **Flip Device Mode** | **2.26 GHz** `(-31%)` | **2.40 GHz** `(-24%)` | **2.18 GHz** `(-26%)` | **Clamshell Tuned.** 0ms touchboost + task isolation away from the top hinge & cover screen. |
+| Edition | Cortex-X4 (Prime) | Cortex-A720 (Big) | Cortex-A720 (Mid) | Est. Performance | Target Use-Case |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Stock (Factory Default)** | **3.30 GHz** | **3.15 GHz** | **2.96 GHz** | **100%** | **Baseline (100% Performance).** Stock clocks without limits. Causes massive 5W+ power spikes and rapid overheating in compact foldables. |
+| **Normal Mode (V1.0)** | **2.80 GHz** `(-15%)` | **2.61 GHz** `(-17%)` | **2.47 GHz** `(-16%)` | **~95%** | **Default / Recommended (Retains ~95%).** Retains near-full flagship power while eliminating high-wattage thermal spikes. |
+| **Power Mode** | **2.57 GHz** `(-22%)` | **2.30 GHz** `(-27%)` | **2.18 GHz** `(-26%)` | **~85%** | **Daily Driver (Retains ~85%).** Noticeably cooler chassis and extended battery life during daily multitasking. |
+| **Extreme Mode** | **2.26 GHz** `(-31%)` | **2.09 GHz** `(-33%)` | **1.95 GHz** `(-34%)` | **~75%** | **Cool Thermals (Retains ~75%).** Zero overheating under heavy load, warm weather, or direct sunlight. |
+| **Ultra Mode** | **1.95 GHz** `(-41%)` | **1.78 GHz** `(-43%)` | **1.65 GHz** `(-44%)` | **~60%** | **Maximum Battery (Retains ~60%).** Ice-cold phone, extreme Screen-On Time (SOT) for long travel days. |
+| **Flip Device Mode** | **2.26 GHz** `(-31%)` | **2.40 GHz** `(-24%)` | **2.18 GHz** `(-26%)` | **~80%** | **Clamshell Tuned (Retains ~80%).** 0ms touchboost + task isolation away from the top hinge & cover screen. |
+
 
 ---
 
