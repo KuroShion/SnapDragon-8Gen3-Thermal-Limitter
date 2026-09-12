@@ -7,7 +7,9 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@KuroShion-2CA5E0?style=flat-square&logo=telegram)](https://t.me/KuroShion)
 
 > [!NOTE]
-> **Tested on Xiaomi MIX Flip (`ruyi`)**, but should be fully suitable for any other rooted **Snapdragon 8 Gen 3 (SM8650)** device running KernelSU or Magisk. Test with your own **RISKS!**
+> **Tested on Xiaomi MIX Flip (`ruyi`)**, but should be fully suitable for any other rooted **Snapdragon 8 Gen 3 (SM8650)** device running KernelSU or Magisk.
+
+System-level thermal management, frequency limiter, and 120Hz display lock designed for **Snapdragon 8 Gen 3 (SM8650)** devices, specialized for clamshell foldables like the **Xiaomi MIX Flip**.
 
 ---
 
@@ -40,11 +42,11 @@ Choose the edition that fits your workflow:
 | Edition | Cortex-X4 (Prime) | Cortex-A720 (Big) | Cortex-A720 (Mid) | Target Use-Case |
 | :--- | :---: | :---: | :---: | :--- |
 | **Stock (Factory Default)** | **3.30 GHz** | **3.15 GHz** | **2.96 GHz** | **Baseline.** Stock clocks without limits. Causes massive 5W+ power spikes and rapid overheating in compact foldables. |
-| **Normal Mode (V1.0)** | **2.80 GHz** | **2.61 GHz** | **2.47 GHz** | **Default / Recommended.** Retains ~95% flagship power while eliminating high-wattage thermal spikes. |
-| **Power Mode** | **2.57 GHz** | **2.30 GHz** | **2.18 GHz** | **Daily Driver.** Enhanced battery life and cooler chassis during multitasking. |
-| **Extreme Mode** | **2.26 GHz** | **2.09 GHz** | **1.95 GHz** | **Cool Thermals.** Zero overheating under warm weather or direct sunlight. |
-| **Ultra Mode** | **1.95 GHz** | **1.78 GHz** | **1.65 GHz** | **Maximum Battery.** Ice-cold phone, extreme Screen-On Time (SOT). |
-| **Flip Device Mode** | **2.26 GHz** | **2.40 GHz** | **2.18 GHz** | **Clamshell Tuned.** 0ms touchboost + task isolation away from the top hinge. |
+| **Normal Mode (V1.0)** | **2.80 GHz** `(-15%)` | **2.61 GHz** `(-17%)` | **2.47 GHz** `(-16%)` | **Default / Recommended.** Retains ~95% flagship power while eliminating high-wattage thermal spikes. |
+| **Power Mode** | **2.57 GHz** `(-22%)` | **2.30 GHz** `(-27%)` | **2.18 GHz** `(-26%)` | **Daily Driver.** Enhanced battery life and cooler chassis during multitasking. |
+| **Extreme Mode** | **2.26 GHz** `(-31%)` | **2.09 GHz** `(-33%)` | **1.95 GHz** `(-34%)` | **Cool Thermals.** Zero overheating under warm weather or direct sunlight. |
+| **Ultra Mode** | **1.95 GHz** `(-41%)` | **1.78 GHz** `(-43%)` | **1.65 GHz** `(-44%)` | **Maximum Battery.** Ice-cold phone, extreme Screen-On Time (SOT). |
+| **Flip Device Mode** | **2.26 GHz** `(-31%)` | **2.40 GHz** `(-24%)` | **2.18 GHz** `(-26%)` | **Clamshell Tuned.** 0ms touchboost + task isolation away from the top hinge & cover screen. |
 
 ---
 
@@ -56,7 +58,7 @@ Choose the edition that fits your workflow:
 * **KernelSU** or **Magisk** installed.
 
 ### Steps:
-1. Go to the [**Releases**](https://github.com/KuroShion/SnapDragon-8Gen3-Thermal-Limitter/releases/tag/Release) section.
+1. Go to the [**Releases**](https://github.com/KuroShion) section.
 2. Download the `.zip` edition you want to use.
 3. Open **KernelSU** or **Magisk** app on your phone.
 4. Go to **Modules** ➔ **Install from storage**.
@@ -75,3 +77,17 @@ cat /sys/devices/system/cpu/cpufreq/policy7/scaling_max_freq
 
 # Check display refresh rate setting
 settings get system min_refresh_rate
+```
+
+---
+
+## ⚠️ Disclaimer
+* Root access is required.
+* Always keep a backup of your device.
+* While these modules underclock rather than overclock (making them hardware-safe), you use this software at your own discretion.
+
+---
+
+## 👨‍💻 Author & Credits
+* **Developer:** **[Kuro Shion](https://github.com/KuroShion)**
+* **Telegram:** **[@KuroShion](https://t.me/KuroShion)**
