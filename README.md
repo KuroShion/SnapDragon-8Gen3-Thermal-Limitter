@@ -39,6 +39,7 @@ Choose the edition that fits your workflow:
 
 | Edition | Cortex-X4 (Prime) | Cortex-A720 (Big) | Cortex-A720 (Mid) | Target Use-Case |
 | :--- | :---: | :---: | :---: | :--- |
+| **Stock (Factory Default)** | **3.30 GHz** | **3.15 GHz** | **2.96 GHz** | **Baseline.** Stock clocks without limits. Causes massive 5W+ power spikes and rapid overheating in compact foldables. |
 | **Normal Mode (V1.0)** | **2.80 GHz** | **2.61 GHz** | **2.47 GHz** | **Default / Recommended.** Retains ~95% flagship power while eliminating high-wattage thermal spikes. |
 | **Power Mode** | **2.57 GHz** | **2.30 GHz** | **2.18 GHz** | **Daily Driver.** Enhanced battery life and cooler chassis during multitasking. |
 | **Extreme Mode** | **2.26 GHz** | **2.09 GHz** | **1.95 GHz** | **Cool Thermals.** Zero overheating under warm weather or direct sunlight. |
